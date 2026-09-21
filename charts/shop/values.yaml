@@ -1,20 +1,15 @@
 # Default values (this baseline acts as the "dev" environment).
+global:
+  imageRepo: 822800
+  imageTag: v1
+
 frontend:
-  image:
-    repository: adidr10/frontend
-    tag: v1
   replicas: 1
 
 productsApi:
-  image:
-    repository: adidr10/products-api
-    tag: v1
   replicas: 1
 
 ordersApi:
-  image:
-    repository: adidr10/orders-api
-    tag: v1
   replicas: 1
 
 gateway:
