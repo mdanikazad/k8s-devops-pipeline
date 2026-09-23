@@ -1,7 +1,7 @@
 # Default values (this baseline acts as the "dev" environment).
 global:
   imageRepo: 822800
-  imageTag: v1
+  imageTag: 99a57fe52e14888cbd87912681f92a1077e2cd21
 
 frontend:
   replicas: 1
